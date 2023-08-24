@@ -1,0 +1,406 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, jusFASEGWGHWEWERGWEGt try searching Google for questions like
+   "how to change link color." */
+   
+@font-face { 
+      font-family: "nishiki"; 
+			 src: url('source/NishikiTeki-MVxaJ.ttf');
+}
+
+@font-face {
+  font-family: "Junicode";
+  src: url('source/Junicode.ttf');
+}
+
+@font-face {
+  font-family: "jancieni";
+  src: url('source/jancient.ttf');
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    overflow: hidden;
+    z-index: -4;
+    background-color: 'black';
+    overflow: hidden;
+}
+
+#ray{
+  position:absolute;
+  right:0;
+  top:0;
+  z-index: 999
+}
+
+#gravity{
+    top:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5111111111111111111111111111111;
+    z-index: -2
+}
+
+.endsky{
+  position: absolute;
+  top: 60%;
+}
+
+.BUTTHEREISHOPE{
+  position:absolute;
+  bottom: 40%;
+  right:23.33333333333333333%;
+}
+
+.FORHEISUPTHERE{
+  position: absolute;
+  text-align: right;
+  width: 300px;
+  animation: scroll1s linear 1s, infiniteScrolls infinite linear 1s;
+  animation-delay: 0s, 1s;
+  z-index: -1;
+  color: white;
+  height: 600px;
+  overflow-y: scroll;
+  overflow: hidden;
+}
+
+.FORHEISUPTHERE > *{
+  font-size: 11px;
+  font-family: jancieni;
+}
+
+/* @keyframes infiniteScrolls {
+  from {
+            transform: translateY(-16%);
+  }
+  to {
+    transform: translateY(-97%);
+  }
+} */
+
+.BANISHEDBACKTOTHEVOID{
+    position:absolute;
+    left: 35%;
+    top: 30%;
+    background-image: url(NO/2008090709.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 35%;
+    height: 40%;
+}
+
+.BANISHEDBACKTOTHEVOID > img, ul{
+  display: inline-block;
+}
+
+.BANISHEDBACKTOTHEVOID > ul{
+  color: violet;
+  width: 100%;
+  font-size: 2vw;
+}
+
+.BANISHEDBACKTOTHEVOID > center > img{
+  width: 50px;
+  height: 50px;
+}
+
+.BANISHER{
+  position:absolute;
+  left:10%;
+  top: 40%
+}
+
+.innominepatrisetfiliietspiritussanctiamen{
+  position:absolute;
+  margin-left:200px;
+  margin-top: 30%
+}
+
+span{
+  position:absolute;
+  width:100px;
+  height: 100px;
+  color:green;
+  overflow-y: scroll;
+}
+
+.fix{
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+
+.THEYHATEME{
+ position:absolute;
+ top:5%;
+ right:0;
+ right:10%;
+ color: white;
+ font-weight: bolder;
+}
+
+
+
+#THEY{
+  width: 40vw;
+}
+
+.THEYHATEME > .THEYDO{
+ position:absolute;
+ bottom: 9%;
+ right:0;
+}
+
+.THEYHATEME > .THEYDO > h2{
+   color: red;
+  animation: blinker 0.002s linear infinite;
+  animation-delay: 0.001s
+}
+
+.THEYHATEME > .THEYDO > h2:nth-child(odd){
+  color:black;
+  left: 3%;
+  animation: blinker 0.002s linear infinite;
+  animation-delay: 0.002s
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+.mc{
+  position:absolute;
+  opacity: 0.43333333333333333333333333333333333;
+  height: auto;
+  z-index: -3;
+  overflow: hidden;
+}
+
+#mc1{
+  bottom: -33%;
+  left: -9%;
+  width: 41.6666666667%;
+  animation: orbit 10s steps(24) infinite;
+}
+
+#mc2{
+  right: 0;
+  right: -45%;
+  width: 173.59375%;
+}
+
+#mc3{  
+  top: -33%;
+  left: -33%;
+  width: 62.5%;
+}
+
+#mc4{
+  bottom: 0;
+  right: 0;
+  left: 18%;
+  top: 72%;
+  width: 52.5%;
+  opacity: 0.33;
+}
+
+#mc5{
+  right: 0;
+  width: 52.5%;
+  left: -23%;
+}
+
+#mc6{
+  right: 0;
+  width: 182.447916667%;
+  bottom: 0;
+}
+
+#mc7{
+  right: 0;
+  width: 99.4270833333%;
+  bottom: 0;
+  top: 50%;
+}
+
+#mc8{
+  left: 33%;
+  bottom: 81%;
+  width: 47.03125%;
+  animation: orbit 6.33s steps(24) infinite;
+}
+
+#mc9{
+  right: 0;
+  width: 62.5%;
+  right: -36%;
+  bottom: 41%;
+}
+
+#mc10{
+  bottom: 45%;
+  left: 21%;
+  width: 47.03125%;
+}
+
+#mc11{
+  bottom: 0;
+  right: 0;
+  top: 63%;
+  left: 73%;
+  width: 900px;
+}
+
+#mc12{
+  width: 46.875%;
+  left: -20%;
+  animation: orbit 3s steps(24) infinite;
+}
+
+#mc13{
+  top: 80%;
+  width: 31.25%;
+  right: 0;
+  bottom: 0;
+  animation: orbit 6s steps(24) infinite;
+}
+
+#mc14{
+  top: 60%;
+  width: 31.25%;
+  right: -20%;
+  bottom: 0;
+  animation: reverseOrbit 2s steps(24) infinite;
+}
+
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+}
+
+@keyframes reverseOrbit {
+  from { transform: rotate(360deg) translateX(-150px) rotate(-360deg); }
+  to   { transform: rotate(0deg) translateX(-150px) rotate(0deg); }
+}
+
+.LOSTINTHEFLESHANDNOTINTHEFLESHER{
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 21px;
+  color: white;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.deceived{
+  width: 100%;
+  height: 350px;
+  animation: scroll1 linear 3s, infiniteScroll infinite linear 3s;
+  animation-delay: 0s, 3s;
+}
+
+.deceived > h3{
+  margin: 5px;
+  font-size: 18px;
+  font-family: Junicode;
+}
+
+#deceived2 > h3{
+  font-family: Junicode;
+}
+
+
+#HIJOS{
+  top: 21%;
+  left: 5%;
+  position: absolute;
+  z-index: 1;
+  min-width: 29.2708333333%;
+  height: 147px;
+}
+
+.ab{
+  position: absolute;
+}
+
+#teto{
+  left: 20%;
+  top: 20%;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#ai{
+  left: 3.5%;
+  top: 28%;
+  width: 50px;
+  height: 50px;
+}
+
+
+#HIJOSB{
+  width: 450px;
+  height: 90px;
+}
+
+.botones{
+  position: absolute;
+  bottom: 7%;
+  left: 25%;
+}
+
+.botones > *{
+  margin-left: 6px;
+}
+
+#SD{
+  position: absolute;
+  bottom: 13%;
+  left: 23%;
+}
+
+#lit{
+  position:absolute;
+  width:33%;
+  left:12%;
+  top: 33%;
+  z-index: -3;
+}
+
+
+
+@keyframes scroll1 {
+  from {
+            transform: translateY(300%);
+  }
+  to {
+            transform: translateY(-981%);
+  }
+}
+
+@keyframes infiniteScroll {
+  from {
+            transform: translateY(0%);
+  }
+  to {
+            transform: translateY(-1181%);
+  }
+}
+
