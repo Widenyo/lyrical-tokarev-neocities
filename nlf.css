@@ -1,0 +1,23 @@
+body{
+    background-image: url("NO/bg521秘密図書館.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    font-size: 24px;
+    overflow-wrap: break-word;
+    border-radius: 20px;
+    opacity: 0.9;
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 40px;
+    overflow-y: hidden;
+}
