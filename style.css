@@ -145,8 +145,7 @@ span{
 .THEYHATEME{
  position:absolute;
  top:5%;
- right:0;
- right:10%;
+ left:60%;
  color: white;
  font-weight: bolder;
 }
@@ -354,6 +353,12 @@ span{
   height: 50px;
 }
 
+.www{
+  position: absolute;
+}
+
+
+
 
 #HIJOSB{
   width: 450px;
@@ -384,7 +389,43 @@ span{
   z-index: -3;
 }
 
+#COMPU{
+  left: 30%;
+  top: 70%;
+  position: absolute;
+  z-index: -1;
+}
 
+
+.en-la-compu {
+  overflow: scroll;
+  height: 450px;
+  width: 850px;
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  color: black;
+}
+
+.arriba2 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.abajo2 {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 60px;
+}
+
+.abajo3{
+  color: red;
+}
 
 @keyframes scroll1 {
   from {
