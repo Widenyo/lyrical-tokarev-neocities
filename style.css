@@ -189,6 +189,7 @@ span{
   height: auto;
   z-index: -3;
   overflow: hidden;
+  filter: brightness(277%);
 }
 
 #mc1{
@@ -196,18 +197,22 @@ span{
   left: -9%;
   width: 41.6666666667%;
   animation: orbit 10s steps(24) infinite;
+  filter: brightness(500%);
 }
 
 #mc2{
   right: 0;
   right: -45%;
   width: 173.59375%;
+  filter: brightness(1000%);
 }
 
 #mc3{  
   top: -33%;
   left: -33%;
   width: 62.5%;
+  filter: brightness(400%)
+  
 }
 
 #mc4{
@@ -286,6 +291,19 @@ span{
   right: -20%;
   bottom: 0;
   animation: reverseOrbit 2s steps(24) infinite;
+}
+
+.q{
+  color: white;
+  font-size: 36px;
+  font-family: Junicode;
+  font-weight: 960;
+  position: absolute;
+  opacity: 0.8
+}
+
+#Q{
+  top: 50%
 }
 
 @keyframes orbit {
