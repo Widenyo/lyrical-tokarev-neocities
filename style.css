@@ -427,6 +427,30 @@ span{
   color: red;
 }
 
+#SAYA{
+  display: inline;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  width: 110px;
+  height: 142px;
+}
+
+#SAYA:hover{
+  cursor: pointer;
+}
+
+#dropdown{
+  background-color: black;
+  color: blueviolet;
+  width: 200px;
+}
+
+.option{
+  background-color: black;
+  
+}
+
 @keyframes scroll1 {
   from {
             transform: translateY(300%);
