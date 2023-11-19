@@ -352,7 +352,23 @@ span{
  font-weight: bolder;
 }
 
+#N1{
+  z-index: -1;
+  left: 20%;
+  top: 20%;
+  background: linear-gradient(180deg, rgb(0, 124, 247) 0%, rgb(122, 188, 255) 9%, rgb(210, 232, 255) 100%);
+}
 
+#ceremony{
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#STREAM{
+  border: 1px solid black ;
+  border-style: outset;
+}
 
 #THEY{
   width: 40vw;
