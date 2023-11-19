@@ -2,7 +2,7 @@
 
 let images = [];
 
-fetch('https://resources.lyricaltokarev.fun/cloudinary/avatar')
+fetch('https://resources.lyricaltokarev.com/cloudinary/avatar')
 .then((response) => images = response.json()).then((data) =>{images = data.data.files})
 
 const imgElement = document.getElementById('ai');

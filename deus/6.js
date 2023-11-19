@@ -1,6 +1,6 @@
 let bgs = []
 const lyrical =  document.getElementById('lyrical')
-const doorpath = 'https://resources.lyricaltokarev.fun/cloudinary/door'
+const doorpath = 'https://resources.lyricaltokarev.com/cloudinary/door'
 
 async function wrapper(){
     await getBgs()
